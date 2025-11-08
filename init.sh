@@ -10,9 +10,6 @@ brew install --cask hugo
 brew install --cask spotify
 brew install --cask docker
 
-# Appearance
-sh appearance.sh
-
 # NVM
 sh nvm.sh
 
