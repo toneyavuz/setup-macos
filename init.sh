@@ -16,14 +16,15 @@ sh appearance.sh
 # NVM
 sh nvm.sh
 
-# Iterm
-sh iterm.sh
 
 brew install pyenv
 brew install rbenv
 brew install openssl readline sqlite3 xz zlib
 brew tap heroku/brew
 brew install heroku
+
+# Iterm
+sh iterm.sh
 
 heroku login
 
