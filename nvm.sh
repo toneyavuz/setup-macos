@@ -1,6 +1,6 @@
 brew install nvm
 [[ -s $(brew --prefix)/opt/nvm/nvm.sh ]] && . $(brew --prefix)/opt/nvm/nvm.sh
-nvm install stable
+nvm install --lts
 node -v
 
 # Global packages
