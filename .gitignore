@@ -1,3 +1,4 @@
 get-docker.sh
 test-docker.sh
 /.idea
+/node_modules/
