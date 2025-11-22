@@ -20,9 +20,10 @@ brew install openssl readline sqlite3 xz zlib
 brew tap heroku/brew
 brew install heroku
 
-# gemini cli with flutter extension
+# gemini cli with flutter and gcloud extension
 brew install gemini-cli
 gemini extensions install https://github.com/gemini-cli-extensions/flutter.git --auto-update
+gemini extensions install https://github.com/gemini-cli-extensions/gcloud.git --auto-update
 
 brew install cocoapods
 
